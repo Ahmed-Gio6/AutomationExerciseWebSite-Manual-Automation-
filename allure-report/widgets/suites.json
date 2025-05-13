@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"3aef112df8c5147cf41309adca072a4b","name":"CombinedSuite","statistic":{"failed":3,"broken":0,"skipped":0,"passed":19,"unknown":0,"total":22}},{"uid":"a9c8f11b4c0d702164a4731c0b55ffa0","name":"Login Functionality","statistic":{"failed":0,"broken":0,"skipped":0,"passed":7,"unknown":0,"total":7}}]}
