@@ -6,20 +6,19 @@ This project is a UI Test Automation Framework built using TestNG and Cucumber t
 
 
 ---
-
 ✅ Features
 
-Automated UI Testing using TestNG
+⚙ Automated UI Testing using TestNG
 
-BDD-style scenarios using Cucumber
+🧾 BDD-style Scenarios implemented with Cucumber
 
-Screenshots captured automatically on test failure
+📸 Screenshots are captured automatically on test failure
 
-Allure Reports for advanced test results visualization
+📊 Allure Reports for rich and interactive test result visualization
 
-Well-structured folder hierarchy and readable code
+🗂 Clean Project Structure with readable and maintainable code
 
-Test cases report & bugs report provided
+🧪 Test Cases Report (Excel) & 🐞 Bugs Report (Excel) are included
 
 
 ---
@@ -39,37 +38,39 @@ Test cases report & bugs report provided
 
 ---
 
+
 🧪 Test Scenarios Covered
 
-#	Test Case
+⿪	✅ Test Case
 
-1	Register New Account
-2	Login with Valid Credentials
-3	Add Item to Cart
-4	Add Item to Wishlist
-5	Contact Us Form Submission
+⿡	📝 Register New Account
+⿢	🔐 Login with Valid Credentials
+⿣	🛒 Add Item to Cart
+⿤	💖 Add Item to Wishlist
+⿥	✉ Contact Us Form Submission
+
+
+
+---
+
+🧬 Technologies Used
+
+☕ Java
+
+🌐 Selenium WebDriver
+
+🧪 TestNG
+
+🥒 Cucumber (BDD)
+
+📊 Allure Report
+
+⚙ Maven
 
 
 
 ---
 
-🛠 Technologies Used
-
-Java
-
-TestNG
-
-Cucumber
-
-Maven
-
-Allure Reports
-
-Selenium WebDriver
-
-
-
----
 
 🧾 Project Structure
 
