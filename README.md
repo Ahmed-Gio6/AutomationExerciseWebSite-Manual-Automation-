@@ -1,117 +1,123 @@
-# Graduation Project - E2E Automated Testing Suite 🚀
+🧪 Graduation Project – UI Automation Testing
 
-Welcome to the *Graduation Project* repository! This project is a complete *E2E Test Automation Framework* developed using *TestNG, **Cucumber, and **Allure Reports*, designed to test the functionality of the e-commerce website:
+This project is a UI Test Automation Framework built using TestNG and Cucumber to automate test scenarios on the following demo site:
 
-*Website Under Test:* [OpenCart Demo](https://demo.opencart.com.gr/index.php?route=common/home)
+🔗 Demo Site – OpenCart
 
----
-
-## 🔧 Technologies Used
-- ⚙ *Java*
-- ✅ *TestNG*
-- 🥒 *Cucumber (BDD)*
-- 📷 *Screenshot Capture on Failure*
-- 📊 *Allure Reporting*
 
 ---
 
-## 🧪 Test Cases Included
+✅ Features
 
-### ✅ Registration Tests
-- Test registration with valid data.
-- Handle duplicate email registration.
-- Validation error handling.
+Automated UI Testing using TestNG
 
-### 🛒 Add to Cart Tests
-- Add a single product to the cart.
-- Add multiple products.
-- Quantity update and removal.
+BDD-style scenarios using Cucumber
 
-### ❤ Add to Wishlist Tests
-- Add product to wishlist.
-- Wishlist count validation.
-- Product removal from wishlist.
+Screenshots captured automatically on test failure
 
-### 📩 Contact Us Form Tests
-- Submit valid contact form.
-- Submit empty or invalid form (for error validation).
+Allure Reports for advanced test results visualization
 
-### 🔐 Login Feature with Cucumber
-- Successful login with correct credentials.
-- Login failure handling with screenshots on error.
+Well-structured folder hierarchy and readable code
+
+Test cases report & bugs report provided
+
+
 
 ---
 
-## 📸 Screenshots on Failure
-Screenshots are automatically captured on test failure and saved in the folder:
+🧪 Test Scenarios Covered
 
-GraduationProject/screenshots/
+#	Test Case
 
-You can view examples like this:
+1	Register New Account
+2	Login with Valid Credentials
+3	Add Item to Cart
+4	Add Item to Wishlist
+5	Contact Us Form Submission
 
-![Sample Screenshot](screenshots/login_failure.png)
+
 
 ---
 
-## 📈 Allure Reports
+🛠 Technologies Used
 
-To generate and view the Allure Report:
-```bash
+Java
+
+TestNG
+
+Cucumber
+
+Maven
+
+Allure Reports
+
+Selenium WebDriver
+
+
+
+---
+
+🧾 Project Structure
+
+├── GraduationProject/
+│   ├── features/               # Cucumber feature files
+│   ├── stepDefinitions/        # Step definitions
+│   ├── runners/                # TestNG runners
+│   ├── utils/                  # Utilities (like screenshot logic)
+│   └── Screenshots/           # Failure screenshots
+├── allure-results/             # Allure raw results
+├── allure-report/              # Generated Allure report
+├── target/                     # Maven target folder
+└── README.md
+
+
+---
+
+📸 Screenshot on Failure
+
+Whenever a test case fails, a screenshot is captured automatically and saved in the Screenshots/ folder.
+
+
+---
+
+📊 Allure Reports
+
+To generate and view the Allure Report, run the following:
+
 allure serve
 
 The report includes:
 
-Test summaries
+✅ Test summaries
 
-Detailed step execution
+🧩 Detailed step execution
 
-Screenshots (if failed)
+📷 Failure screenshots
 
-Environment info
-
-
+🌍 Environment details
 
 
 
 ---
 
-📑 Documentation
+📁 Documentation
 
-✔ Test Cases Report (Excel)
+✅ Test Cases Report (Excel)
 
-❗ Bugs Report (Excel)
+🐞 Bugs Report (Excel)
 
 
-Make sure to attach the correct links to the files above when uploading them.
+
+---
+
+📷 Sample Screenshot
+
+
 
 
 ---
 
 🧠 Author
 
-Name: Ahmed Saad
-
-Age: 22
-
-University: Faculty of Engineering, Menoufia University
-
-Experience: Embedded Systems Instructor at BMEC + SIC & ITI Training
-
-
-
----
-
-📬 Contact
-
-Email: [your_email@example.com]
-
-GitHub: Ahmed-Gio6
-
-
-
----
-
-> “Quality is never an accident. It is always the result of intelligent effort.” – John Ruskin
-
-
-
+Ahmed Saad
+Coding Instructor@iSchool  | Software Testing Engineer | Passionate about Automation Testing | Computer Science Engineer – Menoufia University
