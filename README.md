@@ -41,7 +41,7 @@ This project is a UI Test Automation Framework built using TestNG and Cucumber t
 
 🧪 Test Scenarios Covered
 
-⿪	✅ Test Case
+🐾	✅ Test Case
 
 ⿡	📝 Register New Account
 ⿢	🔐 Login with Valid Credentials
