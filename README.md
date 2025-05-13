@@ -126,7 +126,7 @@ The report includes:
 
 📷 Sample Screenshot
 
-
+![Allure Dashboard](ScreenShots/validateRegisterwithInvalidFirstname_20250508_111711.png)
 
 
 ---
