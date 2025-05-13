@@ -43,11 +43,11 @@ This project is a UI Test Automation Framework built using TestNG and Cucumber t
 
 🐾	✅ Test Case
 
-⿡	📝 Register New Account
-⿢	🔐 Login with Valid Credentials
-⿣	🛒 Add Item to Cart
-⿤	💖 Add Item to Wishlist
-⿥	✉ Contact Us Form Submission
+🛠 	📝 Register New Account
+🛠 	🔐 Login with Valid Credentials
+🛠 	🛒 Add Item to Cart
+🛠 	💖 Add Item to Wishlist
+🛠 	✉ Contact Us Form Submission
 
 
 
