@@ -1,0 +1,7 @@
+{
+  "ValidEmail": "ahmedshanb@gmail.com",
+  "ValidName": "1234",
+  "ValidEnquiry": "Hello My Name ahmed saad ",
+  "InValidEmail": "AhmedSaad",
+  "InValidEnquiry": "/**"
+}

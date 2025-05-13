@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="13" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-03T20:03:00 EEST" name="Surefire suite" finished-at="2025-05-03T20:03:59 EEST" duration-ms="58157">
+    <groups>
+    </groups>
+    <test started-at="2025-05-03T20:03:00 EEST" name="Surefire test" finished-at="2025-05-03T20:03:59 EEST" duration-ms="58157">
+      <class name="Tests.RegisterTest">
+        <test-method is-config="true" signature="precondition(java.lang.String)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:13 EEST" name="precondition" finished-at="2025-05-03T20:03:16 EEST" duration-ms="2722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:16 EEST" name="setUp" finished-at="2025-05-03T20:03:18 EEST" duration-ms="2295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterNewUser()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:18 EEST" name="validateRegisterNewUser" finished-at="2025-05-03T20:03:21 EEST" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterNewUser -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:21 EEST" name="GoToReg" finished-at="2025-05-03T20:03:22 EEST" duration-ms="1434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterNewUser status=SUCCESS method=RegisterTest.validateRegisterNewUser()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:22 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:22 EEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterNewUser status=SUCCESS method=RegisterTest.validateRegisterNewUser()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:22 EEST" name="setUp" finished-at="2025-05-03T20:03:22 EEST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithConfirmEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:22 EEST" name="validateRegisterwithConfirmEmptyField" finished-at="2025-05-03T20:03:24 EEST" duration-ms="1710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithConfirmEmptyField -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:24 EEST" name="GoToReg" finished-at="2025-05-03T20:03:24 EEST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithConfirmEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithConfirmEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:24 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:24 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithConfirmEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithConfirmEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:24 EEST" name="setUp" finished-at="2025-05-03T20:03:24 EEST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithEmailEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:24 EEST" name="validateRegisterwithEmailEmptyField" finished-at="2025-05-03T20:03:26 EEST" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithEmailEmptyField -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:26 EEST" name="GoToReg" finished-at="2025-05-03T20:03:26 EEST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithEmailEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithEmailEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:26 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:26 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithEmailEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithEmailEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:26 EEST" name="setUp" finished-at="2025-05-03T20:03:27 EEST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithFirstNameEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:27 EEST" name="validateRegisterwithFirstNameEmptyField" finished-at="2025-05-03T20:03:29 EEST" duration-ms="1965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithFirstNameEmptyField -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:29 EEST" name="GoToReg" finished-at="2025-05-03T20:03:29 EEST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithFirstNameEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithFirstNameEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:29 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:29 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithFirstNameEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithFirstNameEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:29 EEST" name="setUp" finished-at="2025-05-03T20:03:29 EEST" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithInvalidConfirmPass()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:29 EEST" name="validateRegisterwithInvalidConfirmPass" finished-at="2025-05-03T20:03:31 EEST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithInvalidConfirmPass -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:31 EEST" name="GoToReg" finished-at="2025-05-03T20:03:31 EEST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidConfirmPass status=SUCCESS method=RegisterTest.validateRegisterwithInvalidConfirmPass()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:31 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:31 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidConfirmPass status=SUCCESS method=RegisterTest.validateRegisterwithInvalidConfirmPass()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:31 EEST" name="setUp" finished-at="2025-05-03T20:03:32 EEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithInvalidEmail()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:32 EEST" name="validateRegisterwithInvalidEmail" finished-at="2025-05-03T20:03:33 EEST" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithInvalidEmail -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:33 EEST" name="GoToReg" finished-at="2025-05-03T20:03:33 EEST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidEmail status=SUCCESS method=RegisterTest.validateRegisterwithInvalidEmail()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:33 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:33 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidEmail status=SUCCESS method=RegisterTest.validateRegisterwithInvalidEmail()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:33 EEST" name="setUp" finished-at="2025-05-03T20:03:33 EEST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithInvalidFirstname()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:33 EEST" name="validateRegisterwithInvalidFirstname" finished-at="2025-05-03T20:03:35 EEST" duration-ms="2124" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Welcome message is not displayed. expected [false] but found [true],
+did not expect [https://awesomeqa.com/ui/index.php?route=account/success] but found [https://awesomeqa.com/ui/index.php?route=account/success]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Welcome message is not displayed. expected [false] but found [true],
+did not expect [https://awesomeqa.com/ui/index.php?route=account/success] but found [https://awesomeqa.com/ui/index.php?route=account/success]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Pages.RegisterPage.assertRegisterInvalidName(RegisterPage.java:149)
+at Tests.RegisterTest.validateRegisterwithInvalidFirstname(RegisterTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithInvalidFirstname -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:35 EEST" name="GoToReg" finished-at="2025-05-03T20:03:37 EEST" duration-ms="1800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidFirstname status=FAILURE method=RegisterTest.validateRegisterwithInvalidFirstname()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:37 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:37 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidFirstname status=FAILURE method=RegisterTest.validateRegisterwithInvalidFirstname()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:37 EEST" name="setUp" finished-at="2025-05-03T20:03:38 EEST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithInvalidLastname()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:38 EEST" name="validateRegisterwithInvalidLastname" finished-at="2025-05-03T20:03:40 EEST" duration-ms="2162" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Welcome message is not displayed. expected [false] but found [true],
+did not expect [https://awesomeqa.com/ui/index.php?route=account/success] but found [https://awesomeqa.com/ui/index.php?route=account/success]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Welcome message is not displayed. expected [false] but found [true],
+did not expect [https://awesomeqa.com/ui/index.php?route=account/success] but found [https://awesomeqa.com/ui/index.php?route=account/success]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Pages.RegisterPage.assertRegisterInvalidName(RegisterPage.java:149)
+at Tests.RegisterTest.validateRegisterwithInvalidLastname(RegisterTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithInvalidLastname -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:40 EEST" name="GoToReg" finished-at="2025-05-03T20:03:41 EEST" duration-ms="1589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidLastname status=FAILURE method=RegisterTest.validateRegisterwithInvalidLastname()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:41 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:41 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidLastname status=FAILURE method=RegisterTest.validateRegisterwithInvalidLastname()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:41 EEST" name="setUp" finished-at="2025-05-03T20:03:42 EEST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithInvalidTelephoneNumber()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:42 EEST" name="validateRegisterwithInvalidTelephoneNumber" finished-at="2025-05-03T20:03:44 EEST" duration-ms="2065" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Welcome message is not displayed. expected [false] but found [true],
+did not expect [https://awesomeqa.com/ui/index.php?route=account/success] but found [https://awesomeqa.com/ui/index.php?route=account/success]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Welcome message is not displayed. expected [false] but found [true],
+did not expect [https://awesomeqa.com/ui/index.php?route=account/success] but found [https://awesomeqa.com/ui/index.php?route=account/success]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Pages.RegisterPage.assertRegisterInvalidTelephoneNum(RegisterPage.java:156)
+at Tests.RegisterTest.validateRegisterwithInvalidTelephoneNumber(RegisterTest.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithInvalidTelephoneNumber -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:44 EEST" name="GoToReg" finished-at="2025-05-03T20:03:45 EEST" duration-ms="1616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidTelephoneNumber status=FAILURE method=RegisterTest.validateRegisterwithInvalidTelephoneNumber()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:45 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:45 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithInvalidTelephoneNumber status=FAILURE method=RegisterTest.validateRegisterwithInvalidTelephoneNumber()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:45 EEST" name="setUp" finished-at="2025-05-03T20:03:46 EEST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithLastNameEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:46 EEST" name="validateRegisterwithLastNameEmptyField" finished-at="2025-05-03T20:03:48 EEST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithLastNameEmptyField -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:48 EEST" name="GoToReg" finished-at="2025-05-03T20:03:48 EEST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithLastNameEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithLastNameEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:48 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:48 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithLastNameEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithLastNameEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:48 EEST" name="setUp" finished-at="2025-05-03T20:03:49 EEST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithPasswordEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:49 EEST" name="validateRegisterwithPasswordEmptyField" finished-at="2025-05-03T20:03:51 EEST" duration-ms="1967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithPasswordEmptyField -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:51 EEST" name="GoToReg" finished-at="2025-05-03T20:03:51 EEST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithPasswordEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithPasswordEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:51 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:51 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithPasswordEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithPasswordEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:51 EEST" name="setUp" finished-at="2025-05-03T20:03:51 EEST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithRepeatedEmail()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:51 EEST" name="validateRegisterwithRepeatedEmail" finished-at="2025-05-03T20:03:53 EEST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithRepeatedEmail -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:53 EEST" name="GoToReg" finished-at="2025-05-03T20:03:53 EEST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithRepeatedEmail status=SUCCESS method=RegisterTest.validateRegisterwithRepeatedEmail()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:53 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:53 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithRepeatedEmail status=SUCCESS method=RegisterTest.validateRegisterwithRepeatedEmail()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:53 EEST" name="setUp" finished-at="2025-05-03T20:03:54 EEST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithTelephoneEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:54 EEST" name="validateRegisterwithTelephoneEmptyField" finished-at="2025-05-03T20:03:56 EEST" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithTelephoneEmptyField -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:56 EEST" name="GoToReg" finished-at="2025-05-03T20:03:56 EEST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithTelephoneEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithTelephoneEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:56 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:56 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithTelephoneEmptyField status=SUCCESS method=RegisterTest.validateRegisterwithTelephoneEmptyField()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:56 EEST" name="setUp" finished-at="2025-05-03T20:03:56 EEST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterwithoutPrivacyCheck()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:56 EEST" name="validateRegisterwithoutPrivacyCheck" finished-at="2025-05-03T20:03:58 EEST" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterwithoutPrivacyCheck -->
+        <test-method is-config="true" signature="GoToReg(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:58 EEST" name="GoToReg" finished-at="2025-05-03T20:03:58 EEST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithoutPrivacyCheck status=SUCCESS method=RegisterTest.validateRegisterwithoutPrivacyCheck()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToReg -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:58 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:58 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterwithoutPrivacyCheck status=SUCCESS method=RegisterTest.validateRegisterwithoutPrivacyCheck()[pri:0, instance:Tests.RegisterTest@6c4980d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.RegisterTest@6c4980d3]" started-at="2025-05-03T20:03:58 EEST" name="teardown" finished-at="2025-05-03T20:03:59 EEST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.RegisterTest -->
+      <class name="Tests.AddToCartTest">
+        <test-method is-config="true" signature="precondition(java.lang.String)[pri:0, instance:Tests.AddToCartTest@2d52216b]" started-at="2025-05-03T20:03:01 EEST" name="precondition" finished-at="2025-05-03T20:03:04 EEST" duration-ms="3526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AddToCartTest@2d52216b]" started-at="2025-05-03T20:03:04 EEST" name="setUp" finished-at="2025-05-03T20:03:06 EEST" duration-ms="2377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateAddMoreProductToCart()[pri:0, instance:Tests.AddToCartTest@2d52216b]" started-at="2025-05-03T20:03:07 EEST" name="validateAddMoreProductToCart" finished-at="2025-05-03T20:03:11 EEST" duration-ms="4137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddMoreProductToCart -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.AddToCartTest@2d52216b]" started-at="2025-05-03T20:03:11 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:11 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAddMoreProductToCart status=SUCCESS method=AddToCartTest.validateAddMoreProductToCart()[pri:0, instance:Tests.AddToCartTest@2d52216b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AddToCartTest@2d52216b]" started-at="2025-05-03T20:03:11 EEST" name="setUp" finished-at="2025-05-03T20:03:11 EEST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateAddProductToCart()[pri:0, instance:Tests.AddToCartTest@2d52216b]" started-at="2025-05-03T20:03:11 EEST" name="validateAddProductToCart" finished-at="2025-05-03T20:03:13 EEST" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddProductToCart -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.AddToCartTest@2d52216b]" started-at="2025-05-03T20:03:13 EEST" name="takeScreenshot" finished-at="2025-05-03T20:03:13 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAddProductToCart status=SUCCESS method=AddToCartTest.validateAddProductToCart()[pri:0, instance:Tests.AddToCartTest@2d52216b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.AddToCartTest@2d52216b]" started-at="2025-05-03T20:03:13 EEST" name="teardown" finished-at="2025-05-03T20:03:13 EEST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.AddToCartTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
