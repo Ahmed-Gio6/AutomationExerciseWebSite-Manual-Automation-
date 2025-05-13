@@ -1,153 +1,117 @@
-# Graduation Project - Automated Testing Framework
+# Graduation Project - E2E Automated Testing Suite 🚀
 
-This repository contains an advanced automated testing framework for an e-commerce website using Selenium, TestNG, and Cucumber. It includes complete test coverage for core functionalities such as Registration, Login, Cart, Wishlist, and Contact Us.
+Welcome to the *Graduation Project* repository! This project is a complete *E2E Test Automation Framework* developed using *TestNG, **Cucumber, and **Allure Reports*, designed to test the functionality of the e-commerce website:
 
-*Live Demo Site:*  
-[https://demo.opencart.com.gr/index.php?route=common/home](https://demo.opencart.com.gr/index.php?route=common/home)
-
----
-
-## *Table of Contents*
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Tested Features](#tested-features)
-- [Failure Handling](#failure-handling)
-- [Reporting](#reporting)
-  - [Allure Report](#1-allure-report)
-  - [Manual Reports](#2-test-cases--bugs-report)
-- [Screenshots](#screenshots)
-- [How to Run](#how-to-run)
-- [Author](#author)
-- [License](#license)
+*Website Under Test:* [OpenCart Demo](https://demo.opencart.com.gr/index.php?route=common/home)
 
 ---
 
-## *Project Structure*
-
-GraduationProject/ ├── src/                       # Source code ├── screenshots/               # Failure screenshots ├── allure-results/            # Raw Allure data ├── allure-report/             # Generated Allure reports ├── reports/                   # TestCasesReport.xlsx & BugsReport.xlsx ├── pom.xml                    # Maven build file ├── .gitignore └── README.md
-
----
-
-## *Technologies Used*
-- *Java 17+*
-- *Selenium WebDriver*
-- *TestNG*
-- *Cucumber (BDD with Gherkin)*
-- *Allure Reporting*
-- *Maven (Build & Dependency Manager)*
+## 🔧 Technologies Used
+- ⚙ *Java*
+- ✅ *TestNG*
+- 🥒 *Cucumber (BDD)*
+- 📷 *Screenshot Capture on Failure*
+- 📊 *Allure Reporting*
 
 ---
 
-## *Tested Features*
+## 🧪 Test Cases Included
 
-| Feature             | Status  | Framework   | Screenshot on Fail    | Cucumber Used    |
-|---------------------|---------|-------------|-----------------------|----------------- |
-| *Registration*      | ✅ Done | TestNG      | ✅                   | ❌              |
-| *Login*             | ✅ Done | Cucumber    | ✅                   | ✅              |
-| *Add to Cart*       | ✅ Done | TestNG      | ✅                   | ❌              |
-| *Add to Wishlist*   | ✅ Done | TestNG      | ✅                   | ❌              |
-| *Contact Us*        | ✅ Done | TestNG      | ✅                   | ❌              |
+### ✅ Registration Tests
+- Test registration with valid data.
+- Handle duplicate email registration.
+- Validation error handling.
+
+### 🛒 Add to Cart Tests
+- Add a single product to the cart.
+- Add multiple products.
+- Quantity update and removal.
+
+### ❤ Add to Wishlist Tests
+- Add product to wishlist.
+- Wishlist count validation.
+- Product removal from wishlist.
+
+### 📩 Contact Us Form Tests
+- Submit valid contact form.
+- Submit empty or invalid form (for error validation).
+
+### 🔐 Login Feature with Cucumber
+- Successful login with correct credentials.
+- Login failure handling with screenshots on error.
 
 ---
 
-## *Failure Handling*
-Whenever a test fails, a screenshot is automatically captured and stored in the screenshots/ directory. The file is named with the test case name and a timestamp for easy reference.
+## 📸 Screenshots on Failure
+Screenshots are automatically captured on test failure and saved in the folder:
+
+GraduationProject/screenshots/
+
+You can view examples like this:
+
+![Sample Screenshot](screenshots/login_failure.png)
 
 ---
 
-## *Reporting*
+## 📈 Allure Reports
 
-### 1. *Allure Report*
-Allure provides an interactive report with:
-- Full test step breakdown
-- Visual representation of passed/failed cases
-- Integrated screenshots for failed tests
-
-*To generate Allure Report:*
+To generate and view the Allure Report:
 ```bash
-mvn clean test
-allure serve allure-results
+allure serve
 
-Sample Preview:
+The report includes:
 
+Test summaries
 
+Detailed step execution
 
+Screenshots (if failed)
 
+Environment info
 
----
-
-2. Test Cases & Bugs Report
-
-Manual documents stored in the reports/ folder:
-
-Download Test Cases Report
-
-Download Bugs Report
-
-
-Each Excel file includes:
-
-Description of the test/bug
-
-Steps to reproduce
-
-Expected vs Actual results
-
-Severity & Priority
-
-
-
----
-
-Screenshots
-
-Failure screenshots are saved automatically. Sample:
-
-Test	Screenshot
-
-Registration	
-Add to Cart	
-
-
-
----
-
-How to Run
-
-Clone & Navigate:
-
-git clone https://github.com/Ahmed-Gio6/GraduationProject2.git
-cd GraduationProject/GraduationProject
-
-Run Tests:
-
-mvn clean test
-
-View Report:
-
-allure serve allure-results
-
-
----
-
-Author
-
-Ahmed Saad
-22 y/o - Embedded Systems & Automation Engineer
-Menoufia University
-Instructor at Ischool
-Embedded Software at Redcon Sreel
-Graduate of ITI & Samsung Innovation Campus
-
-> LinkedIn | Email | [Phone: 01127091832]
 
 
 
 
 ---
 
-License
+📑 Documentation
 
-This project is intended for academic and educational purposes only.
+✔ Test Cases Report (Excel)
+
+❗ Bugs Report (Excel)
+
+
+Make sure to attach the correct links to the files above when uploading them.
+
+
+---
+
+🧠 Author
+
+Name: Ahmed Saad
+
+Age: 22
+
+University: Faculty of Engineering, Menoufia University
+
+Experience: Embedded Systems Instructor at BMEC + SIC & ITI Training
+
+
+
+---
+
+📬 Contact
+
+Email: [your_email@example.com]
+
+GitHub: Ahmed-Gio6
+
+
+
+---
+
+> “Quality is never an accident. It is always the result of intelligent effort.” – John Ruskin
+
 
 
