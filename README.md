@@ -22,6 +22,20 @@ Well-structured folder hierarchy and readable code
 Test cases report & bugs report provided
 
 
+---
+
+## *Tested Features*
+
+| Feature             | Status  | Framework  | Screenshot on Fail | Cucumber Used |
+|---------------------|---------|------------|---------------------|----------------|
+| *Registration*     | ✅ Done | TestNG      | ✅                   | ❌              |
+| *Login*            | ✅ Done | Cucumber    | ✅                   | ✅              |
+| *Add to Cart*      | ✅ Done | TestNG      | ✅                   | ❌              |
+| *Add to Wishlist*  | ✅ Done | TestNG      | ✅                   | ❌              |
+| *Contact Us*       | ✅ Done | TestNG      | ✅                   | ❌              |
+
+---
+
 
 ---
 
