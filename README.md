@@ -110,7 +110,7 @@ The report includes:
 
 🌍 Environment details
 
-
+![Allure Dashboard](allure-report/Capture.png)
 
 ---
 
