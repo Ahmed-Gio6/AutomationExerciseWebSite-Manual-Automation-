@@ -72,20 +72,20 @@ This project is a UI Test Automation Framework built using TestNG and Cucumber t
 ---
 
 🧾 Project Structure
+'''
 
-Folder / File	Description
-
-GraduationProject/	Main project directory
-├── features/	Cucumber feature files
-├── stepDefinitions/	Step definitions
-├── runners/	TestNG runners
-├── utils/	Utility functions (e.g., screenshot logic)
-└── Screenshots/	Captured failure screenshots
-allure-results/	Allure raw results
-allure-report/	Generated Allure report
-target/	Maven build output
-README.md	Project documentation
-
+GraduationProject/
+├── features/             # Cucumber feature files  
+├── stepDefinitions/      # Step definitions  
+├── runners/              # TestNG runners  
+├── utils/                # Utilities (like screenshot logic)  
+├── Screenshots/          # Failure screenshots  
+│
+├── allure-results/       # Allure raw results  
+├── allure-report/        # Generated Allure report  
+├── target/               # Maven target folder  
+└── README.md             # Project documentation
+'''
 ---
 
 📸 Screenshot on Failure
