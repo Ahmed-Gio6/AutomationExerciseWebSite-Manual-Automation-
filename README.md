@@ -80,7 +80,6 @@ GraduationProject/
 ├── runners/              # TestNG runners  
 ├── utils/                # Utilities (like screenshot logic)  
 ├── Screenshots/          # Failure screenshots  
-│
 ├── allure-results/       # Allure raw results  
 ├── allure-report/        # Generated Allure report  
 ├── target/               # Maven target folder  
